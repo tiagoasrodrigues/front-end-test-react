@@ -1,3 +1,5 @@
+import { BiLock } from 'react-icons/bi'
+import { GoMail } from 'react-icons/go'
 import './style.css';
 
 export function Form() {
@@ -9,12 +11,13 @@ export function Form() {
             <form action="#" />
             <div className="input-boxes">
               <div className="input-box">
-                <i className="fas fa-envelope"></i>
-                <input type="text" placeholder="Email" required />
+                <GoMail className='message-icon' size={26} color="rgba(0, 0 ,0 ,0.2)" />
+                <input className='input-name' type="text" placeholder="Email" required />
               </div>
               <div className="input-box">
-                <i className="fa fa-lock"></i>
-                <input type="password" placeholder="Senha" required />
+                <BiLock className='lock-icon' size={26} color="rgba(0, 0 ,0 ,0.2)" />
+                <input className='input-name' type="password" placeholder="Senha" required />
+                <span class="show">Mostrar</span>
               </div>
             </div>
           </div>

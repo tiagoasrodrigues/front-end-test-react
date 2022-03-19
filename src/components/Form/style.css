@@ -1,0 +1,58 @@
+.form-content .input-box input {
+  height: 100%;
+  width: 100%;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.form-content .login-form {
+  padding-left: 13%;
+  width: 34%;
+}
+
+.forms .form-content .input-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.input-name {
+  border-radius: 0.5rem;
+  text-indent: 15px;
+}
+
+.show {
+  background: rgb(255, 255, 255);
+
+  position: absolute;
+  color: rgba(255, 0, 0, 0.4);
+  font-weight: bold;
+  margin-left: 265px;
+}
+
+input {
+  background: rgb(255, 255, 255);
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+.message-icon {
+  background: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 10px;
+}
+
+.lock-icon {
+  background: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 10px;
+}

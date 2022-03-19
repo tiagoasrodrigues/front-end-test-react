@@ -1,0 +1,50 @@
+.button {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.button .input-enter {
+  color: #fdf2f2;
+  background: #e00000;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 1.2rem 9.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px rgb(215, 215, 215);
+}
+
+.button .input-google {
+  color: #fdf2f2;
+  background: #4285f4;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: -10px;
+  padding: 1.2rem 3.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: 0.5s;
+  text-indent: 70px;
+  box-shadow: 5px 5px 5px rgb(215, 215, 215);
+}
+
+.signin {
+  padding-left: 13%;
+}
+
+.signin-google {
+  padding-left: 13%;
+}
+
+.google-icon-cont {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 13%;
+  padding: 8.8px 20px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background: rgb(255, 255, 255);
+}
